@@ -1,9 +1,8 @@
 .section {
     padding: 100px 0;
-    background: #0f172a;
-    /* Slightly different shade */
-    border-top: 1px solid rgba(255, 255, 255, 0.05);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    background: #fbf8f3;
+    border-top: 1px solid var(--card-border);
+    border-bottom: 1px solid var(--card-border);
 }
 
 .content {
@@ -22,7 +21,7 @@
 }
 
 .subtitle {
-    color: #94a3b8;
+    color: var(--text-muted);
     font-size: 1.1rem;
     max-width: 600px;
     margin: 0 auto;
@@ -35,17 +34,19 @@
 }
 
 .card {
-    background: rgba(30, 41, 59, 0.5);
-    border: 1px solid rgba(255, 255, 255, 0.05);
+    background: #ffffff;
+    border: 1px solid var(--card-border);
     padding: 1.5rem;
     border-radius: 8px;
     transition: all 0.2s;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.02);
 }
 
 .card:hover {
-    background: rgba(30, 41, 59, 0.8);
-    border-color: rgba(74, 222, 128, 0.2);
+    background: #ffffff;
+    border-color: var(--primary);
     transform: translateX(5px);
+    box-shadow: 0 4px 10px rgba(217, 170, 52, 0.15);
 }
 
 .row {
@@ -61,35 +62,39 @@
 }
 
 .icon {
-    color: #3b82f6;
+    color: var(--primary);
+    /* Gold Icon */
     display: flex;
 }
 
 .label {
     font-weight: 600;
-    color: #e2e8f0;
+    color: var(--foreground);
 }
 
 .arrow {
-    color: #64748b;
+    color: #dfd3c3;
     font-size: 1.2rem;
 }
 
 .form {
-    color: #4ade80;
+    color: #483115;
+    /* Logo Brown */
     font-family: monospace;
     font-weight: 600;
-    background: rgba(74, 222, 128, 0.1);
+    background: #f5efe6;
+    /* Light Beige BG */
     padding: 0.25rem 0.75rem;
     border-radius: 4px;
     font-size: 0.9rem;
+    border: 1px solid #e6dbcf;
 }
 
 .footer {
     margin-top: 3rem;
     text-align: center;
-    color: #64748b;
+    color: var(--text-muted);
     font-size: 0.95rem;
-    border-top: 1px solid rgba(255, 255, 255, 0.05);
+    border-top: 1px solid var(--card-border);
     padding-top: 1.5rem;
 }

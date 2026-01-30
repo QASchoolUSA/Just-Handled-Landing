@@ -1,7 +1,7 @@
 .footer {
     padding: 60px 0 30px;
-    background: border-box;
-    border-top: 1px solid rgba(255, 255, 255, 0.05);
+    background: #f8f6f2;
+    border-top: 1px solid var(--card-border);
     margin-top: auto;
 }
 
@@ -18,7 +18,7 @@
 }
 
 .brand p {
-    color: #64748b;
+    color: var(--text-muted);
     margin-top: 0.5rem;
 }
 
@@ -28,20 +28,20 @@
 }
 
 .links a {
-    color: #94a3b8;
+    color: var(--text-muted);
     transition: color 0.2s;
 }
 
 .links a:hover {
-    color: #fff;
+    color: var(--foreground);
 }
 
 .bottom {
     text-align: center;
-    color: #475569;
+    color: #9f968e;
     font-size: 0.9rem;
     padding-top: 2rem;
-    border-top: 1px solid rgba(255, 255, 255, 0.05);
+    border-top: 1px solid var(--card-border);
 }
 
 @media (max-width: 768px) {

@@ -4,10 +4,11 @@
     left: 0;
     right: 0;
     height: 80px;
-    background: rgba(11, 17, 33, 0.8);
+    background: rgba(253, 251, 247, 0.95);
+    /* Matches warm background */
     backdrop-filter: blur(12px);
     z-index: 1000;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    border-bottom: 1px solid var(--card-border);
     display: flex;
     align-items: center;
 }
@@ -20,9 +21,9 @@
 }
 
 .logo {
-    font-size: 1.5rem;
-    font-weight: 700;
-    letter-spacing: -0.03em;
+    display: flex;
+    align-items: center;
+    height: 100%;
 }
 
 .links {
@@ -32,13 +33,14 @@
 
 .links a {
     font-size: 0.95rem;
-    color: #94a3b8;
+    color: var(--text-muted);
     font-weight: 500;
     transition: color 0.2s;
 }
 
 .links a:hover {
-    color: #fff;
+    color: var(--primary);
+    /* Gold hover */
 }
 
 @media (max-width: 768px) {

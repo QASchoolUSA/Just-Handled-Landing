@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import FadeIn from './FadeIn';
+import FinancialDashboard from './FinancialDashboard';
 import styles from './Hero.module.css';
 
 export default function Hero() {
@@ -31,16 +32,9 @@ export default function Hero() {
                 </div>
 
                 <FadeIn delay={0.6} className={styles.visual}>
-                    <div className={styles.imageWrapper}>
-                        <Image
-                            src="/assets/app-screenshot-1.png"
-                            alt="Just Handled Health Check Dashboard"
-                            width={1200}
-                            height={800}
-                            priority
-                            className={styles.dashboardImage}
-                        />
+                    <div className={styles.dashboardWrapper}>
                         <div className={styles.glow} />
+                        <FinancialDashboard />
                     </div>
                 </FadeIn>
             </div>

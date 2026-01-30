@@ -4,7 +4,7 @@ import Workflow from "@/components/Workflow";
 import OperationalRhythm from "@/components/OperationalRhythm";
 import FeatureGrid from "@/components/FeatureGrid";
 import TaxMapping from "@/components/TaxMapping";
-import Showcase from "@/components/Showcase";
+import SuccessMetrics from "@/components/SuccessMetrics";
 import Footer from "@/components/Footer";
 import styles from "./page.module.css";
 
@@ -17,7 +17,7 @@ export default function Home() {
       <OperationalRhythm />
       <FeatureGrid />
       <TaxMapping />
-      <Showcase />
+      <SuccessMetrics />
       <Footer />
     </main>
   );
