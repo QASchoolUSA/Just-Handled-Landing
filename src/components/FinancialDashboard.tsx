@@ -1,4 +1,4 @@
-import { TrendingUp, CheckCircle, AlertCircle, DollarSign, PieChart } from 'lucide-react';
+import { TrendingUp, CheckCircle, AlertCircle, DollarSign } from 'lucide-react';
 import styles from './FinancialDashboard.module.css';
 
 export default function FinancialDashboard() {

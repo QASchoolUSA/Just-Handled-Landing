@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import FadeIn from './FadeIn';
 import FinancialDashboard from './FinancialDashboard';
 import styles from './Hero.module.css';

@@ -9,7 +9,7 @@ export default function Navbar() {
         <Link href="/" className={styles.logo}>
           <Image
             src="/just-handled-logo.svg"
-            alt="Just Handled Logo"
+            alt="Just Handled - Trucking Accounting Software Logo"
             width={300}
             height={75}
             priority
@@ -24,8 +24,11 @@ export default function Navbar() {
         </div>
 
         <div className={styles.actions}>
-          <a href="https://app.justhandled.com" className="btn btn-primary">
-            Login
+          <a href="https://app.justhandled.com/login" className="btn btn-secondary">
+            Log In
+          </a>
+          <a href="https://app.justhandled.com/register" className="btn btn-primary">
+            Sign Up
           </a>
         </div>
       </div>

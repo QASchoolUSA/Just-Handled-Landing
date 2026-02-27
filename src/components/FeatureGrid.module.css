@@ -13,7 +13,8 @@
 .subtitle {
     text-align: center;
     color: var(--text-muted);
-    margin-bottom: 4rem;
+    max-width: 600px;
+    margin: 0 auto 4rem;
 }
 
 .grid {
